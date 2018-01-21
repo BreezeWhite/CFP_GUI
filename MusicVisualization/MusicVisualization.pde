@@ -27,17 +27,8 @@ Music visual_m;
 void setup() {
   rectMode(CENTER);
   
-  int song = 0;
-  String[] music_name = {"MAPS_test_song.wav", "MAPS_MUS-grieg_kobold_ENSTDkAm.wav",
-                    "Kimi no Shiranai Monogatari - Bakemonogatari ED.mp3"};
-  String[] pred = {"MAPS_test_song.txt", "MAPS_MUS-grieg_kobold_ENSTDkAm.txt",
-                    "Kimi no Shiranai Monogatari - Bakemonogatari ED.txt"};
-  
-  
-  String music_path = music_name[song];
-  String pred_path = pred[song];
-  //pred_path = "GroundTruth_AkPnCGdD_MUS_MAPS_MUS-grieg_kobold_AkPnCGdD.txt";
-  
+  String[] music_path = "song.wav";
+  String[] pred_path = "prediction_of_song.txt";
   
   Minim minim = new Minim(this);
   music = minim.loadFile(music_path, 1024);
