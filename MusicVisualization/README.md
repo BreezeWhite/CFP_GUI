@@ -6,10 +6,11 @@ This is the program of music visualization project, based on the CFP study.
 The program is written in processing language, which is a kind of library build on java.
 You can learn more on [processing](https://processing.org/).
 
-For running the program, you need first run the CFP GUI program.
-Then there will be one ouput file which name is the same as the input audio.
-This output file will be the input of this program.
-Put the file under the same folder, and modify the variable at line 30, 31 inside musicvisulization.pde to the file needed, 
+For running the program, you need first run the CFP GUI program. Follow the instructions inside the folder first.
+1. Go to the official processing website, download and install the processing IDE
+1. There should be one ouput file which name is the same as the input audio after running the CFP_GUI program.
+2. Put the file under the same folder, and modify the variable at line 30, 31 inside musicvisulization.pde to the file needed, 
+including the original audio and the prediction file just generated.
 
 ```
 29. ...
@@ -18,7 +19,6 @@ Put the file under the same folder, and modify the variable at line 30, 31 insid
 32. ...
 ```
 
-including the original music and the prediction file just generated.
 
 And finally, pressed run, then enjoy the performance^^
 
@@ -38,6 +38,7 @@ Below are elements used in this project
 ![](./images/wave_form.png)
 
 - Auto painting
+
 ![](./images/auto_painting.png)
 
 The demo video:
