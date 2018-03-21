@@ -1,6 +1,5 @@
-#Music Visualization Project
+# Music Visualization Project
 
-- - -
 
 This is the program of music visualization project, based on the CFP study.
 
