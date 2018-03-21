@@ -1,4 +1,4 @@
-#<center> Music Visualization Project</center>
+#Music Visualization Project
 
 - - -
 
@@ -27,19 +27,19 @@ And finally, pressed run, then enjoy the performance^^
 
 Below are elements used in this project
 - Keyboard
-![](images\keyboard.png)
+![](./images/keyboard.png)
 
 - Ripples
-![](images\ripple.png)
+![](./images/ripple.png)
 
 - Embolus
-![](images\embolus.png)
+![](./images/embolus.png)
 
 - Wave form
-![](images\wave_form.png)
+![](./images/wave_form.png)
 
 - Auto painting
-![](images\auto_painting.png)
+![](./images/auto_painting.png)
 
 The demo video:
 https://youtu.be/O-dhdPgN_Yk
